@@ -9,7 +9,7 @@ Description
 ============
 Welcome to the `Open FinLLM Leaderboard <https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard>`_!
 
-The Open FinLLM Leaderboard provides a specialized evaluation framework tailored specifically for financial sector language models. Through comprehensive benchmarking across diverse financial tasks, we aim to help researchers and practitioners identify the most suitable models for their specific financial applications.
+The OpenFinLLM Leaderboard provides an evaluation framework tailored for financial language models. Through comprehensive benchmarking of 30 LLMs across about 50 financial tasks, we aim to help researchers and practitioners identify the right model for their financial applications.
 
 Our platform offers:
 
