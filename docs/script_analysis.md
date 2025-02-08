@@ -1,10 +1,7 @@
-## Overview
-Comparing the old script (`model_eval.ipynb`) and the new one (`run_models.ipynb`). Both are part of the PIXIU framework for financial model evaluation, but they serve different roles. The old script was mainly used for setup, while the new script is focused on actually running and evaluating models.
+## **Overview**  
+We compared two scripts, **`model_eval.ipynb`** and **`run_models.ipynb`**, both used in the PIXIU framework for evaluating financial models. The old script was mostly about setup, while the new one is actually responsible for running the models and evaluating their performance.  
 
-## Key Differences
-The biggest difference between the two is their purpose. The old script (`model_eval.ipynb`) was mostly about getting everything ready—it installed dependencies, set up the environment, and made sure everything was configured correctly before running any models. On the other hand, the new script (`run_models.ipynb`) actually runs the evaluations, making it the more active script. It includes specific commands to execute models and process results, while the old script was more like a setup guide that didn’t directly handle any tasks.
+## **Key Differences**  
+The main difference between the two scripts is their role. **`model_eval.ipynb`** was primarily used for setting up the environment—installing dependencies, configuring settings, and ensuring everything was ready before running models. It acted more as a preparation tool rather than actually performing evaluations. **`run_models.ipynb`**, on the other hand, is where the real work happens. It executes the models, processes their outputs, and evaluates their performance.  
 
-Another major difference is how long they take to run. The new script is noticeably slower because it runs multiple evaluations, each involving large batch sizes. This can make execution drag on, which is something to keep in mind when working with it. The old script didn’t have this issue since it wasn’t actually running any models—it just made sure everything was ready to go. So while both scripts are necessary, the old script was more about preparation, and the new script is where the real work happens.
-
-Overall, the switch from `model_eval.ipynb` to `run_models.ipynb` represents a shift from setup to execution. The new script is more functional but also more time-consuming, so performance optimizations might be needed in the future.
-
+Another noticeable difference is **execution time**. The new script runs multiple evaluations with large batch sizes, which makes it significantly slower. The old script didn’t have this issue since it wasn’t performing any heavy computations—it was just handling setup. While the new script is more functional, it also takes much longer to run, so optimizing its performance might be necessary in the future.
