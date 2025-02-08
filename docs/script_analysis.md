@@ -1,7 +1,3 @@
-Here's a more natural and student-like version of your explanation:
-
----
-
 ## **Overview**  
 We compared two scripts, **`model_eval.ipynb`** and **`run_models.ipynb`**, both used in the PIXIU framework for evaluating financial models. The old script was mostly about setup, while the new one is actually responsible for running the models and evaluating their performance.  
 
