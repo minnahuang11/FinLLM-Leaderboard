@@ -44,12 +44,12 @@ Regulations,Not Done Yet
 ConvFinQA,ACC: 0.0000 +- 0.0000
 EDTSUM,Not Done Yet
 ECTSUM,Not Done Yet
-BigData22,Not Done Yet
-ACL18,Not Done Yet
-CIKM18,Not Done Yet
-German,Not Done Yet
-Australian,Not Done Yet
-LendingClub,Not Done Yet
+BigData22,ACC: 0.4851 +- 0.013; Missing: 0.0000 +- 0.0000; F1: 0.4442; Macro F1: 0.4571; MCC: 0.0346
+ACL18,ACC: 0.5040 +- 0.0082; Missing: 0.0000 +- 0.0000; F1: 0.4703; Macro F1: 0.4736; MCC: 0.0245
+CIKM18,ACC: 0.4856 +- 0.0148; Missing: 0.0000 +- 0.0000; F1: 0.4804; Macro F1: 0.4844; MCC: 0.0135
+German,ACC: 0.6600 +- 0.0336; Missing: 0.0000 +- 0.0000; F1: 0.5248; Macro F1: 0.3976; MCC: 0.0000
+Australian,ACC: 0.4245 +- 0.0421; Missing: 0.0000 +- 0.0000; F1: 0.2572; Macro F1: 0.2980; MCC: -0.0977
+LendingClub,ACC: 0.7941 +- 0.0078; Missing: 0.0007 +- 0.0005; F1: 0.7220; Macro F1: 0.4599; MCC: -0.0040
 ccf,Not Done Yet
 ccfraud,Not Done Yet
 polish,Not Done Yet
