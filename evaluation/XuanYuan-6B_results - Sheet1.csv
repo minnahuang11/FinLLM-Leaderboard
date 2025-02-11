@@ -39,7 +39,7 @@ MultiFin,ACC: 0.2234 +- 0.0178; Missing: 0.0055 +- 0.0032; F1: 0.1176; Macro F1:
 MA,ACC: 0.5960 +- 0.022; Missing: 0.0000 +- 0.0000; F1: 0.5874; Macro F1: 0.5874; MCC: 0.2005
 MLESG,ACC: 0.1967 +- 0.0230; Missing: 0.0500 +- 0.0126; F1: 0.1820; Macro F1: 0.1324; MCC: 0.1823
 FinQA,ACC: 0.0000 +- 0.0000
-TATQA,Not Done Yet
+TATQA,ACC: 0 +- 0
 Regulations,Not Done Yet
 ConvFinQA,Not Done Yet
 EDTSUM,Not Done Yet
@@ -52,7 +52,7 @@ Australian,Not Done Yet
 LendingClub,Not Done Yet
 ccf,Not Done Yet
 ccfraud,Not Done Yet
-polish,Not Done Yet
-taiwan,Not Done Yet
-portoseguro,Not Done Yet
-travelinsurance,Not Done Yet
+polish,ACC: 0.9442 +- 0.0055 ; Missing: 0.0058 +- 0.0018 ; F1: 0.9221 ; Macro F1: 0.4859 ; MCC: 0.0257
+taiwan,ACC: 0.5993 +- 0.0133; Missing: 0.3751 +- 0.0131; F1: 0.7282; MacroF1: 0.3763; MCC: -0.0321
+portoseguro,ACC: 0.5227 +- 0.0102; Missing: 0.0000 +- 0.0000; F1: 0.6617; Macro F1: 0.3685; MCC: -0.0012
+travelinsurance,ACC: 0.4897 +- 0.0099; Missing: 0.0000 +- 0.0000; F1: 0.6440; Macro F1: 0.3438; MCC: 0.0227
