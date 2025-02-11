@@ -1,6 +1,0 @@
-section on XBRL analytics of paper
-
-This section provides an overview of the challenges and opportunities of using LLMs for XBRL analytics. It includes several examples of how LLMs can be used to extract data from XBRL files, calculate financial ratios, and make financial forecasts. The section also discusses some of the limitations of current LLMs for XBRL analytics, such as their difficulty in handling complex XBRL structures and their tendency to make mistakes in financial calculations.  This section aims to provide a comprehensive overview of the current state of LLMs for XBRL analytics and to identify areas where further research is needed.
-
-The project aims to evaluate and benchmark LLMs on a variety of financial tasks, including those involving XBRL data. 
- The ability to accurately extract data from XBRL files, calculate financial ratios, and make financial forecasts is crucial for many real-world financial applications.  By including XBRL analytics in the evaluation, the project can provide valuable insights into the capabilities of different LLMs for this important task.
