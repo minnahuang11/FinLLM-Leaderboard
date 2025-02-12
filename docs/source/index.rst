@@ -17,9 +17,9 @@ OpenFinLLM Leaderboard Documentation documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Documentation
+   :caption: OpenFinLLM Leaderboard Documentation
 
    user/introduction
    user/usage
-   user/contribute
+   tutorials/index
 
