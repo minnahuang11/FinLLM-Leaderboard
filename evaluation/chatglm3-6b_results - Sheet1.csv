@@ -1,0 +1,58 @@
+,chatglm3-6b
+NER,Entity F1: 0.2261
+FINER-ORD,Entity F1: 0.0184; F1: 0.0380
+,
+,
+FinRED,"Precision: 0, Recall: 0, F1: 0"
+,
+,
+SC,ACC: 0.7895 +- 0.0044; Missing: 0.0093 +- 0.0010; F1 = 0.8357; Macro F1: 0.5539; MCC: 0.1701
+,
+,
+CD,Entity F1: 0.0000; F1: 0.0000
+,
+,
+FNXL,Entity F1: 0.0000; F1: 0.0009
+,
+,
+FSRL,Entity F1: 0; F1: 0
+,
+,
+FPB,ACC: 0.7598 +- 0.0137; Missing: 0.0021 +- 0.0015; F1: 0.7603; Macro F1: 0.7420; MCC: 0.7420
+,
+,
+FiQA-SA,ACC: 0.6298 +- 0.0316; Missing: 0.0298 +- 0.0111; F1: 0.6642; Macro F1: 0.4965; MCC: 0.4183
+,
+,
+TSA,Errir
+,
+,
+Headlines,Avg F1: 0.7657
+,
+,
+FOMC,ACC: 0.5202 +- 0.0225; Missing: 0.0020 +- 0.0020; F1: 0.5144; Macro F1: 0.4846; MCC: 0.2789
+,
+,
+FinArg-AUC,ACC: 0.2869 +- 0.0145; Missing: 0.4819 +- 0.0161; F1: 0.3753; Macro F1: 0.3736; MCC: 0.0437
+FinArg-ARC,ACC: 0.3333 +- 0.018; Missing: 0.0000 +- 0.0000; F1: 0.2384; Macro F1: 0.2018; MCC: 0.0571
+MultiFin,ACC: 0.5165 +- 0.0214; Missing: 0.1136 +- 0.0136; F1: 0.5252; Macro F1: 0.4909; MCC: 0.4909
+MA,ACC: 0.802 +- 0.0178; Missing: 0.0000 +- 0.0000; F1: 0.802; Macro F1: 0.802; MCC: 0.604
+MLESG,ACC: 0.2600 +- 0.0254; Missing: 0.0633 +- 0.0141; F1: 0.2174; Macro F1: 0.1611; MCC: 0.2336
+FinQA,ACC: 0.0000 +- 0.0000
+TATQA,ACC: 0.0959 +- 0.0072
+Regulations,Not Done Yet
+ConvFinQA,ACC: 0.0000 +- 0.0000
+EDTSUM,Not Done Yet
+ECTSUM,Not Done Yet
+BigData22,ACC: 0.4851 +- 0.013; Missing: 0.0000 +- 0.0000; F1: 0.4442; Macro F1: 0.4571; MCC: 0.0346
+ACL18,ACC: 0.5040 +- 0.0082; Missing: 0.0000 +- 0.0000; F1: 0.4703; Macro F1: 0.4736; MCC: 0.0245
+CIKM18,ACC: 0.4856 +- 0.0148; Missing: 0.0000 +- 0.0000; F1: 0.4804; Macro F1: 0.4844; MCC: 0.0135
+German,ACC: 0.6600 +- 0.0336; Missing: 0.0000 +- 0.0000; F1: 0.5248; Macro F1: 0.3976; MCC: 0.0000
+Australian,ACC: 0.4245 +- 0.0421; Missing: 0.0000 +- 0.0000; F1: 0.2572; Macro F1: 0.2980; MCC: -0.0977
+LendingClub,ACC: 0.7941 +- 0.0078; Missing: 0.0007 +- 0.0005; F1: 0.7220; Macro F1: 0.4599; MCC: -0.0040
+ccf,Not Done Yet
+ccfraud,Not Done Yet
+polish,Not Done Yet
+taiwan,Not Done Yet
+portoseguro,Not Done Yet
+travelinsurance,Not Done Yet

@@ -1,0 +1,7 @@
+## **Overview**  
+We compared two scripts, **`model_eval.ipynb`** and **`run_models.ipynb`**, both used in the PIXIU framework for evaluating financial models. The old script was mostly about setup, while the new one is actually responsible for running the models and evaluating their performance.  
+
+## **Key Differences**  
+The main difference between the two scripts is their role. **`model_eval.ipynb`** was primarily used for setting up the environment—installing dependencies, configuring settings, and ensuring everything was ready before running models. It acted more as a preparation tool rather than actually performing evaluations. **`run_models.ipynb`**, on the other hand, is where the real work happens. It executes the models, processes their outputs, and evaluates their performance.  
+
+Another noticeable difference is **execution time**. The new script runs multiple evaluations with large batch sizes, which makes it significantly slower. The old script didn’t have this issue since it wasn’t performing any heavy computations—it was just handling setup. While the new script is more functional, it also takes much longer to run, so optimizing its performance might be necessary in the future.

@@ -1,0 +1,58 @@
+,Duxiaoman-DI/XuanYuan-6B
+NER,Entity F1: 0.0
+FINER-ORD,Entity F1: 0.000; F1: 0.000
+,
+,
+FinRED,"Precision: 0.0002, Recall: 0.0011, F1: 0.0003"
+,
+,
+SC,ACC: 0.8569 +- 0.0038; Missing: 0.0001 +- 0.0001; F1 = 0.8684; Macro F1: 0.5251; MCC: 0.0552
+,
+,
+CD,Entity F1: 0.0000; F1: 0.0000
+,
+,
+FNXL,Entity F1: 0.0000; F1: 0.0000
+,
+,
+FSRL,Entity F1: 0.0000; F1: 0.0000
+,
+,
+FPB,ACC: 3629 +- 0.0154; Missing: 0.0000 +- 0.0000; F1: 0.2238; Macro F1: 0.4023; MCC: 0.3046
+,
+,
+FiQA-SA,ACC: 0.5064 +- 0.0327; Missing: 0.0000 +- 0.0000; F1: 0.4798; Macro F1: 0.3803; MCC: 0.2714
+,
+,
+TSA,Error
+,
+,
+Headlines,Not Done Yet
+,
+,
+FOMC,ACC: 0.2923 +- 0.0204; Missing: 0.0000 +- 0.0000; F1: 0.2695; Macro F1: 0.2814; MCC: 0.0129
+,
+,
+FinArg-AUC,ACC: 0.5253 +- 0.0161; Missing: 0.0000 +- 0.0000; F1: 0.4307; Macro F1: 0.4187; MCC: 0.0193
+FinArg-ARC,ACC: 0.4464 +- 0.0189; Missing: 0.0348 +- 0.0070; F1: 0.4586; Macro F1: 0.3042; MCC: 0.0843
+MultiFin,ACC: 0.2234 +- 0.0178; Missing: 0.0055 +- 0.0032; F1: 0.1176; Macro F1: 0.1099; MCC: 0.0858
+MA,ACC: 0.5960 +- 0.022; Missing: 0.0000 +- 0.0000; F1: 0.5874; Macro F1: 0.5874; MCC: 0.2005
+MLESG,ACC: 0.1967 +- 0.0230; Missing: 0.0500 +- 0.0126; F1: 0.1820; Macro F1: 0.1324; MCC: 0.1823
+FinQA,ACC: 0.0000 +- 0.0000
+TATQA,ACC: 0 +- 0
+Regulations,Not Done Yet
+ConvFinQA,ACC: 0 +- 0
+EDTSUM,Not Done Yet
+ECTSUM,Not Done Yet
+BigData22,Not Done Yet
+ACL18,Not Done Yet
+CIKM18,Not Done Yet
+German,ACC: 0.5000+- 0.0354; Missing: 0.0000+- 0.0000; F1: 0.5017; Macro F1: 0.4468; MCC: -0.1062
+Australian,Not Done Yet
+LendingClub,ACC: 0.4010+- 0.0094; Missing: 0.0000+- 0.0000; F1: 0.4466; Macro F1: 0.3844; MCC: -0.0266
+ccf,Not Done Yet
+ccfraud,ACC: 0.3480+- 0.0104; Missing: 0.0000 +- 0.0000; F1: 0.4560; Macro F1: 0.3067; MCC: 0.1026
+polish,ACC: 0.9442 +- 0.0055 ; Missing: 0.0058 +- 0.0018 ; F1: 0.9221 ; Macro F1: 0.4859 ; MCC: 0.0257
+taiwan,ACC: 0.5993 +- 0.0133; Missing: 0.3751 +- 0.0131; F1: 0.7282; MacroF1: 0.3763; MCC: -0.0321
+portoseguro,ACC: 0.5227 +- 0.0102; Missing: 0.0000 +- 0.0000; F1: 0.6617; Macro F1: 0.3685; MCC: -0.0012
+travelinsurance,ACC: 0.4897 +- 0.0099; Missing: 0.0000 +- 0.0000; F1: 0.6440; Macro F1: 0.3438; MCC: 0.0227
