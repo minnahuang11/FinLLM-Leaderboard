@@ -250,7 +250,7 @@ Running the Tutorial
 5. Run ``python zero_shot.py``
 
 Notes taht you can refer back to later
-------------
+--------------------------------------
 
 - **Zero-shot** means that you prompt a model with just the question and no examples.
 - **temperature** determines the randomness of the model response. The closer to 0, the more deterministic and consistent the model response is.
