@@ -1,0 +1,58 @@
+,DeepSeek-R1-Distill-Qwen-1.5B
+NER,entity_f1: 0.1205
+FINER-ORD,entity_f1: 0.0017; f1: 0.0041
+,
+,
+FinRED,precision: 0; recall: 0; f1: 0;
+,
+,
+SC,acc: 0.1506 +- 0.0039; missing: 0.2493 +- 0.0047; f1: 0.1945; macro_f1: 0.1654; mcc: 0.0081
+,
+,
+CD,entity_f1: 0; f1: 0
+,
+,
+FNXL,entity_f1: 0; f1: 0
+,
+,
+FSRL,entity_f1: 0; f1: 0
+,
+,
+FPB,acc: 0.1464 +- 0.0114; missing: 0.4660 +- 0.0160; f1: 0.1254; macro_f1: 0.1470; mcc: -0.0114
+,
+,
+FiQA-SA,Not Done Yet
+,
+,
+TSA,Not Done Yet
+,
+,
+Headlines,Not Done Yet
+,
+,
+FOMC,Not Done Yet
+,
+,
+FinArg-AUC,Not Done Yet
+FinArg-ARC,Not Done Yet
+MultiFin,Not Done Yet
+MA,Not Done Yet
+MLESG,Not Done Yet
+FinQA,Not Done Yet
+TATQA,Not Done Yet
+Regulations,Not Done Yet
+ConvFinQA,Not Done Yet
+EDTSUM,Not Done Yet
+ECTSUM,Not Done Yet
+BigData22,Not Done Yet
+ACL18,Not Done Yet
+CIKM18,Not Done Yet
+German,Not Done Yet
+Australian,Not Done Yet
+LendingClub,Not Done Yet
+ccf,Not Done Yet
+ccfraud,Not Done Yet
+polish,Not Done Yet
+taiwan,Not Done Yet
+portoseguro,Not Done Yet
+travelinsurance,Not Done Yet
