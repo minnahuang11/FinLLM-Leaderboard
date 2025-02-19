@@ -1,6 +1,6 @@
 .. _zero_shot_openai:
 
-Zero-Shot Benchmark Tutorial (OpenAI Only)
+Benchmark Api Models (ChatGPT) on Financial Tasks (zeroshot)
 ==========================================
 
 This guide shows how to benchmark an OpenAI model in a **Zero-Shot** setting:
@@ -249,7 +249,7 @@ Running the Tutorial
 4. Add all the code to one file called ``zero_shot.py``.
 5. Run ``python zero_shot.py``
 
-Notes taht you can refer back to later
+Notes that you can refer back to later
 --------------------------------------
 
 - **Zero-shot** means that you prompt a model with just the question and no examples.

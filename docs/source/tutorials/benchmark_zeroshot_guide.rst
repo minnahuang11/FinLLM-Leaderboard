@@ -1,5 +1,5 @@
 ========================================================================
-Benchmarking LLama3.1 on Financial Tasks (zeroshot)
+Benchmarking Local Models (LLama3.1) on Financial Tasks (zeroshot)
 ========================================================================
 
 .. contents:: Table of Contents
