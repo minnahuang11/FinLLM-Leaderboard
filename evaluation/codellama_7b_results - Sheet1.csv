@@ -1,0 +1,58 @@
+,codellama_7b
+NER,Entity F1: 0.0851
+FINER-ORD,Error
+,
+,
+FinRED,precision:0.0009 ; recall: 0.0022 ; f1: 0.0013
+,
+,
+SC,ACC: 0.8204 ± 0.0041; missing: 0.0178 ± 0.0014; f1: 0.8486; macro_f1: 0.5105; mcc: 0.0340
+,
+,
+CD,entity_f1: 0.0000; f1: 0.0064
+,
+,
+FNXL,entity_f1: 0.0033; f1: 0.0468
+,
+,
+FSRL,entity_f1: 0.0000; f1: 0.0325
+,
+,
+FPB,acc: 0.2856 +- 0.0145; missing: 0.0258 +- 0.0051; f1: 0.1312; macro_f1: 0.1518; mcc: 0.0415
+,
+,
+FiQA-SA,acc: 0.4723+- 0.0326; missing: 0.0258 +- 0.0051; f1: 0.1312; macro_f1: 0.1518; mcc: 0.0415
+,
+,
+TSA,
+,
+,
+Headlines,
+,
+,
+FOMC,
+,
+,
+FinArg-AUC,
+FinArg-ARC,
+MultiFin,
+MA,
+MLESG,
+FinQA,
+TATQA,
+Regulations,
+ConvFinQA,
+EDTSUM,
+ECTSUM,
+BigData22,
+ACL18,
+CIKM18,
+German,
+Australian,
+LendingClub,
+ccf,
+ccfraud,
+polish,
+taiwan,
+portoseguro,
+travelinsurance,
