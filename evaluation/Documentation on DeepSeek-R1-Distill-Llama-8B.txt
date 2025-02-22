@@ -1,0 +1,3 @@
+DeepSeek R1 Distill Llama 8B Documentation:
+
+DeepSeek-R1-Distill-Llama-8B shows mixed results across the tasks we tested. It generally performs poorly on Information Extraction tasks like FinRED, NER, and FINER-ORD. However, it manages moderate accuracy and F1 scores in some classification tasks, such as SC. The model does well on the taiwan dataset, but many tasks either ended in errors or were not able to be tested. Overall, while it shows some promise, its limitations are clear, and further fining tuning may help improve its performance on financial NLP tasks.
