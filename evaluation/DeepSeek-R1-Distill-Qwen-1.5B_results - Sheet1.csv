@@ -43,15 +43,14 @@ TATQA,acc: 0 +- 0
 Regulations,Not Done Yet
 ConvFinQA,acc: 0 +- 0
 EDTSUM,ERROR
-EDTSUM,Not Done Yet
-ECTSUM,Not Done Yet
+ECTSUM,ERROR
 BigData22,acc: 0.5489 +- 0.013; missing: 0.0000 +- 0.000; f1: 0.5355; macro_f1: 0.5241; mcc: 0.0655
 ACL18,acc: 0.5250 +- 0.0082; missing: 0.0000 +- 0.0000; f1: 0.5146; macro_f1: 0.5126; mcc: 0.0444
 CIKM18,acc: 0.5363 +- 0.0148; missing: 0.0000 +- 0.0000; f1: 0.5001; macro_f1: 0.4697; mcc: -0.0192
-German,Not Done Yet
-Australian,Not Done Yet
-LendingClub,Not Done Yet
-ccf,Not Done Yet
+German,acc: 0.6600 +- 0.0336; missing: 0.0000 +- 0 .0000; f1: 0.5248; macro_f1: 0.3976; mcc: 0.0000
+Australian,ERROR
+LendingClub,ERROR
+ccf,ERROR
 ccfraud,ERROR
 polish,ERROR
 taiwan,acc: 0.9678 ±  0.0048; missing: 0.0000 ±  0.0000; f1: 0.9519; macro_f1: 0.4918; mcc: 0.0000
