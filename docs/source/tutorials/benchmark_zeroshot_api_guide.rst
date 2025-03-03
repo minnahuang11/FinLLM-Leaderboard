@@ -1,7 +1,7 @@
 .. _zero_shot_openai:
 
 Benchmark Api Models (ChatGPT) on Financial Tasks (zeroshot)
-==========================================
+=============================================================
 
 This guide shows how to benchmark an OpenAI model in a **Zero-Shot** setting:
 
@@ -12,6 +12,7 @@ This guide shows how to benchmark an OpenAI model in a **Zero-Shot** setting:
 
 Prerequisites
 -------------
+
 
 1. **config.json** containing your keys. For this tutorial, only ``openai_api_key`` is actually used, but you can also store other keys for future expansions:
 

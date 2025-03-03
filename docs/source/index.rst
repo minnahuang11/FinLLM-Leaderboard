@@ -20,6 +20,6 @@ OpenFinLLM Leaderboard Documentation documentation
    :caption: OpenFinLLM Leaderboard Documentation
 
    user/introduction
-   user/usage
+   basics_setup/index
    tutorials/index
 
