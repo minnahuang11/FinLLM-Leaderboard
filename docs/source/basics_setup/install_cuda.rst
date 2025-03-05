@@ -43,6 +43,7 @@ Install Cuda
     .. image:: /basics_setup/images/Archive.png
        :align: center
        :class: custom-img
+
    c. Follow the installation instruction and choose default setups
 
    .. code-block:: bash
