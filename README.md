@@ -34,8 +34,8 @@ https://finllm-leaderboard.readthedocs.io/en/latest/
 - `Financial Document Analysis`: Professional-grade report processing
 - `Regulatory Compliance`: AI-driven capital markets solutions
 
-## 🔗 Important Links
-- **Leaderboard**: [Hugging Face Space](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard)
+## 🔗 Links
+- **Leaderboard on HuggingFace**: [Hugging Face Space](https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard)
 - **Codebase**: [GitHub Repository](https://github.com/finos-labs/Open-Financial-LLMs-Leaderboard)
 - **Search Agent**: [FinGPT-Search-Agent](https://github.com/YangletLiu/FinGPT-Search-Agent)
 
