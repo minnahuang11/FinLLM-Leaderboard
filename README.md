@@ -1,4 +1,4 @@
-# OpenFinLLM Leaderboard Documentation
+# Tutorials for OpenFinLLM Leaderboard
 
 [![Documentation Status](https://readthedocs.org/projects/finllm-leaderboard/badge/?version=latest)](https://finllm-leaderboard.readthedocs.io/en/latest/?badge=latest)
 
