@@ -2,7 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/finllm-leaderboard/badge/?version=latest)](https://finllm-leaderboard.readthedocs.io/en/latest/?badge=latest)
 
-Documentation for the Open Financial Large Language Models (FinLLM) Leaderboard - an open platform for evaluating and advancing financial AI capabilities.
+ We provide tutorials for the Open Financial Large Language Models (FinLLM) Leaderboard - an open platform for evaluating and advancing financial AI capabilities.
 
 ## 📖 Documentation
 Access our comprehensive documentation at:  
