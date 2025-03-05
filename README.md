@@ -2,19 +2,19 @@
 
 [![Documentation Status](https://readthedocs.org/projects/finllm-leaderboard/badge/?version=latest)](https://finllm-leaderboard.readthedocs.io/en/latest/?badge=latest)
 
-The official documentation for the Open Financial Large Language Models (FinLLM) Leaderboard - an open platform for evaluating and advancing financial AI capabilities.
+Documentation for the Open Financial Large Language Models (FinLLM) Leaderboard - an open platform for evaluating and advancing financial AI capabilities.
 
-## 📖 Live Documentation
+## 📖 Documentation
 Access our comprehensive documentation at:  
 https://finllm-leaderboard.readthedocs.io/en/latest/
 
-## 🚀 Key Features
+## 🚀 Features
 - **Standardized Evaluation**: Multi-dimensional assessment framework for financial AI systems
 - **Continuous Benchmarking**: Real-time tracking of model performance
 - **Open Collaboration**: Community-driven improvements and contributions
 - **Practical Use Cases**: Demonstrated applications in legal, regulatory, and financial analysis
 
-## 📚 Documentation Highlights
+## 📚 Highlights
 ### Core Components
 - **Introduction**: Project vision and ecosystem overview
 - **Key Features**: Technical capabilities and differentiation
@@ -28,7 +28,7 @@ https://finllm-leaderboard.readthedocs.io/en/latest/
   - Local models (e.g., LLama3.1)
   - API-based models (e.g., ChatGPT)
 
-### Real-World Applications
+### Use Cases and Applications
 - `Simple Questions`: Definitions and financial event analysis
 - `Efficient Legal Consultation`: LLM-assisted legal prep workflows
 - `Financial Document Analysis`: Professional-grade report processing
