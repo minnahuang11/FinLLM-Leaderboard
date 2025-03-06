@@ -41,7 +41,7 @@ https://finllm-leaderboard.readthedocs.io/en/latest/
 
 ## 🤝 How to Contribute
 We welcome contributions through:
-1. New financial datasets 📊
+1. New financial question sets and datasets 📊
 2. Model submissions 🧠 
 3. Task proposals 💡
 4. Documentation improvements 📝
