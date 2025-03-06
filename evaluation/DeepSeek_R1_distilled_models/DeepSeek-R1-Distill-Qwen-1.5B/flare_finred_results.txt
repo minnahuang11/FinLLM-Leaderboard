@@ -1,0 +1,5 @@
+|    Task    |Version| Metric  |Value|   |Stderr|
+|------------|------:|---------|----:|---|------|
+|flare_finred|      1|precision|    0|   |      |
+|            |       |recall   |    0|   |      |
+|            |       |f1       |    0|   |      |

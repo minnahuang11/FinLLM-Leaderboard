@@ -1,0 +1,4 @@
+|   Task   |Version| Metric  |Value|   |Stderr|
+|----------|------:|---------|----:|---|------|
+|flare_fsrl|      1|entity_f1|    0|   |      |
+|          |       |f1       |    0|   |      |

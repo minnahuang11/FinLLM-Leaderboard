@@ -1,0 +1,3 @@
+|   Task    |Version|Metric|Value|   |Stderr|
+|-----------|------:|------|----:|---|-----:|
+|flare_finqa|      1|acc   |    0|±  |     0|
