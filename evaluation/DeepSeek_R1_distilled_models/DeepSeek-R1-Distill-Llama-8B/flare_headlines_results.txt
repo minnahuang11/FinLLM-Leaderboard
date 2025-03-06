@@ -1,0 +1,3 @@
+|     Task      |Version|Metric|Value |   |Stderr|
+|---------------|------:|------|-----:|---|------|
+|flare_headlines|      1|avg_f1|0.5996|   |      |

@@ -1,0 +1,4 @@
+|  Task   |Version|Metric |Value |   |Stderr|
+|---------|------:|-------|-----:|---|-----:|
+|flare_tsa|      1|rmse   |0.7304|   |      |
+|         |       |missing|0.0178|±  |0.0056|

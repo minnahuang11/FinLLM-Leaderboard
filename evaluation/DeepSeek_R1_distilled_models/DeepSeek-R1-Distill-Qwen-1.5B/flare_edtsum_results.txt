@@ -1,0 +1,6 @@
+|    Task    |Version|   Metric    |Value |   |Stderr|
+|------------|------:|-------------|-----:|---|------|
+|flare_edtsum|      1|rouge1       |0.1250|   |      |
+|            |       |rouge2       |0.0494|   |      |
+|            |       |rougeL       |0.0993|   |      |
+|            |       |bert_score_f1|0.6115|   |      |

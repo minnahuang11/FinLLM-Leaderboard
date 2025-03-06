@@ -1,0 +1,3 @@
+|  Task   |Version| Metric  |Value |   |Stderr|
+|---------|------:|---------|-----:|---|------|
+|flare_ner|      1|entity_f1|0.1135|   |      |
