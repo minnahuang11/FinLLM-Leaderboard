@@ -5,8 +5,7 @@
  We provide tutorials for the Open Financial Large Language Models (FinLLM) Leaderboard - an open platform for evaluating and advancing capabilities of Financial LLMs and agents.
 
 ## 📖 Documentation
-Access our comprehensive documentation at:  
-https://finllm-leaderboard.readthedocs.io/en/latest/
+Access at link: https://finllm-leaderboard.readthedocs.io/en/latest/
 
 ## 🚀 Features
 - **Standardized Evaluation**: Multi-dimensional assessment framework for financial AI systems
