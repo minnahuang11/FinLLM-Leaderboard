@@ -1,5 +1,5 @@
 =============
-Basic&Setup
+Basic and Setup
 =============
 
 .. toctree::
