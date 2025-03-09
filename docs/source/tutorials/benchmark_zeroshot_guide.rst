@@ -1,5 +1,5 @@
 ========================================================================
-Benchmarking Local Models (LLama3.1) on Financial Tasks (zeroshot)
+Benchmarking LLama3.1 on Financial Tasks (zeroshot)
 ========================================================================
 
 .. contents:: Table of Contents
@@ -32,7 +32,7 @@ Key fields:
 
 Different datasets can have different structure depending on the author's design. Typically dataset authors have their designed pipelines for models evaluating their dataset, so re producing the evaluation process may give different result depending on the implementation. For demonstrations, we will be implementing an evaluation pipeline from scratch to show the evaluation process.
 
-Implementation Steps
+Steps
 ------------------------------------
 
 1. Environment Setup

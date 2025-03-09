@@ -1,6 +1,6 @@
 .. _zero_shot_openai:
 
-Benchmark Api Models (ChatGPT) on Financial Tasks (zeroshot)
+Benchmark ChatGPT on Financial Tasks (zeroshot)
 =============================================================
 
 This guide shows how to benchmark an OpenAI model in a **Zero-Shot** setting:
