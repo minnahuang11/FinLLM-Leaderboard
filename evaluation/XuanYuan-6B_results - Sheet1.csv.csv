@@ -40,10 +40,10 @@ MA,ACC: 0.5960 +- 0.022; Missing: 0.0000 +- 0.0000; F1: 0.5874; Macro F1: 0.5874
 MLESG,ACC: 0.1967 +- 0.0230; Missing: 0.0500 +- 0.0126; F1: 0.1820; Macro F1: 0.1324; MCC: 0.1823
 FinQA,ACC: 0.0000 +- 0.0000
 TATQA,ACC: 0 +- 0
-Regulations,Not Done Yet
+Regulations,Not one of the task options
 ConvFinQA,ACC: 0 +- 0
-EDTSUM,Not Done Yet
-ECTSUM,Not Done Yet
+EDTSUM,rouge1: 0.2257; rouge2: 0.1057; rougeL: 0.1780; bert_score_f1: 0.6567
+ECTSUM,rouge1: 0; rouge2: 0; rougeL: 0; bert_score_f1: 0
 BigData22,ACC: 0.5476 +- 0.013; Missing: 0.0000 +- 0.0000; F1: 0.4518; Macro F1: 0.4239; MCC: 0.0161
 ACL18,ACC: 0.5126 +- 0.0082; Missing: 0.0000 +- 0.0000; F1: 0.4548; Macro F1: 0.4500; MCC: 0.0112
 CIKM18,ACC: 0.5617 +- 0.0147; Missing: 0.0000 +- 0.0000; F1: 0.5251; Macro F1: 0.4955; MCC: 0.0396
