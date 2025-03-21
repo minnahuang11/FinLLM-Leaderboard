@@ -27,7 +27,7 @@ FiQA-SA,acc: 0.3617 +- 0.0314; missing: 0.0043 +- 0.0043; f1: 0.3225; macro_f1: 
 TSA,rmse: 0.6648; missing: 0.1783 +- 0.0162
 ,
 ,
-Headlines,Not Done Yet
+Headlines,ERROR
 ,
 ,
 FOMC,acc: 0.2581 +- 0.0197; missing: 0.0020 +- 0.0020; f1: 0.1737; macro_f1: 0.2288; mcc: 0.0094
@@ -37,22 +37,28 @@ FinArg-AUC,acc: 0.4376 +- 0.0159; missing: 0.1589 +- 0.0118; f1: 0.3747; macro_f
 FinArg-ARC,acc: 0.4159 +- 0.0188; missing: 0.0000 +- 0.0000; f1: 0.4340; macro_f1: 0.2747; mcc: -0.0804
 MultiFin,acc: 0.2381 +- 0.0182; missing: 0.0696 +- 0.0109; f1: 0.1401; macro_f1: 0.1233; mcc: 0.1140
 MA,acc: 0.5020 +- 0.0224; missing: 0.0000 +- 0.0000; f1: 0.3378; macro_f1: 0.3378; mcc: 0.0448
-MLESG,Not Done Yet
-FinQA,Not Done Yet
-TATQA,Not Done Yet
+MLESG,acc: 0.0467 +- 0.0122; missing: 0.0800 +- 0.0157; f1: 0.0518; macro_f1: 0.0398; mcc: 0.0615
+FinQA,acc: 0 +- 0
+TATQA,acc: 0 +- 0
 Regulations,Not Done Yet
-ConvFinQA,Not Done Yet
-EDTSUM,Not Done Yet
-ECTSUM,Not Done Yet
-BigData22,Not Done Yet
-ACL18,Not Done Yet
-CIKM18,Not Done Yet
-German,Not Done Yet
-Australian,Not Done Yet
-LendingClub,Not Done Yet
-ccf,Not Done Yet
-ccfraud,Not Done Yet
-polish,Not Done Yet
-taiwan,Not Done Yet
-portoseguro,Not Done Yet
-travelinsurance,Not Done Yet
+ConvFinQA,acc: 0 +- 0
+EDTSUM,rouge1: 0.0662; rouge2: 0.0211; rougeL: 0.0588; bert_score_f1: 0.5250
+ECTSUM,rouge1: 0; rouge2: 0; rougeL: 0; bert_score_f1: 0
+BigData22,acc: 0.5312 +- 0.013; missing: 0.0000 +- 0.0000; f1: 0.4871; macro_f1: 0.4679; mcc: 0.0015
+ACL18,acc: 0.5013 +- 0.0082; missing: 0.0000 +- 0.0000; f1: 0.4858; macro_f1: 0.4833; mcc: -0.0067
+CIKM18,acc: 0.4821 +- 0.0148; missing: 0.0000 +- 0.0000; f1: 0.4714; macro_f1: 0.4785; mcc: 0.0185
+German,acc: 0.6600 +- 0.0336; missing: 0.0000 +-  0.0000; f1: 0.5248;  macro_f1: 0.3976; mcc: 0.0000
+Australian,acc: 0.4317 +- 0.0422; missing: 0.0000 +- 0.0000; f1: 0.2603; macro_f1: 0.3015; mcc: 0.0000
+LendingClub,acc: 0.5385 +- 0.0096; missing: 0.3430 +- 0.0092; f1: 0.5940; macro_f1: 0.3675; mcc: 0.0199
+ccf,acc: 0.0026 +- 0.0011; missing: 0.0000 +- 0.0000; f1: 0.0026; macro_f1: 0.0026; mcc: 0.0013
+ccfraud,acc: 0.0786 +- 0.0059; missing: 0.0000 +- 0.0000; f1: 0.0492; macro_f1: 0.0775; mcc: -0.0142
+polish,acc: 0.9470 +- 0.0054; missing: 0.0000 +- 0.0000; f1: 0.9230; macro_f1: 0.4864; mcc: -0.0097
+taiwan,acc: 0.9678 +- 0.0048; missing: 0.0000 +- 0.0000; f1: 0.9519; macro_f1: 0.4918; mcc: 0.0000
+portoseguro,acc: 0.0651 +- 0.0051; missing: 0.0000 +- 0.0000; f1: 0.0713; macro_f1: 0.0650; mcc: -0.0040
+travelinsurace,acc: 0.0162 +- 0.0025; missing: 0.0000 +- 0.0000; f1: 0.0028; macro_f1: 0.0160; mcc: 0.0042
+ES_FinanceES,acc: 0.2961 +- 0.0057; missing: 0.3754 +- 0.0061; f1: 0.2518; macro_f1: 0.1819; mcc: 0.0154
+ES_Multifin,acc: 0.0261 +- 0.0105; missing: 0.9304 +- 0.0168; f1: 0.0453; macro_f1: 0.0467; mcc: 0.0401
+ES_EFP,acc: 0.2703 +- 0.074; missing: 0.0000 +- 0.000; f1: 0.1150; macro_f1: 0.1418; mcc: 0.0000
+ES_EFPA,acc: 0.2193 +- 0.0275; missing: 0.3114 +- 0.0307; f1: 0.1183; macro_f1: 0.1163; mcc: 0.0780
+ES_FNS,rouge1: 0.0044; rouge2: 0.0003; rougeL: 0.0029; bert_score_f1: 0.0120
+ES_TSA,acc: 0.0697 +- 0.0041; missing: 0.8864 +- 0.0051; f1:0.1187; macro_f1: 0.0632; mcc: -0.0060
