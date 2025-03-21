@@ -1,0 +1,122 @@
+,Go4miii/DISC-FinLLM
+NER,entity_f1: 0.0391
+,
+,
+FINER-ORD,entity_f1: 0.0083; f1: 0.0013
+,
+,
+FinRED,precision: 0.0008; recall: 0.0022; f1: 0.0012
+,
+,
+SC,acc: 0.3549 ±  0.0052; missing: 0.0066 ±  0.0009; f1: 0.4557; macro_f1: 0.3187; mcc: 0.1297
+,
+,
+CD,entity_f1: 0; f1: 0
+,
+,
+FNXL,entity_f1: 0; f1: 0
+,
+,
+FSRL,entity_f1: 0; f1: 0
+,
+,
+FPB,acc: 0.8082 ±  0.0126; missing: 0.0021 ± 0.0015; f1: 0.8087; macro_f1: 0.7904; mcc: 0.6462
+,
+,
+FiQA-SA,acc: 0.4766 ±  0.0327; missing: 0.0000 ±  0.0000; f1: 0.5324; macro_f1: 0.3904; mcc: 0.3329
+,
+,
+TSA,rmse: 0.5525; missing: 0.0321 ±  0.0074
+,
+,
+Headlines,avg_f1: 0.6653
+,
+,
+FOMC,acc: 0.5605 ±  0.0223; missing: 0.0040 ±  0.0028; f1: 0.5453; macro_f1: 0.5056; mcc: 0.2702
+,
+,
+FinArg-AUC,acc: 0.4768 ±  0.0161; missing: 0.0010 ±  0.0010; f1: 0.3128; macro_f1: 0.3282; mcc: 0.0162
+,
+,
+FinArg-ARC,acc: 0.6696 ±  0.0179; missing:0.0029 ±  0.0020; f1: 0.5628; macro_f1: 0.2704; mcc: -0.0679
+,
+,
+MultiFin,acc: 0.3956 ±  0.0209; missing: 0.3150 ± 0.0199; f1: 0.4424; macro_f1: 0.4316; mcc: 0.3273
+,
+,
+MA,acc: 0.8140 ±  0.0174; missing: 0.0500 ±  0.0098; f1:0.8347; macro_f1: 0.8347; mcc: 0.6494
+,
+,
+MLESG,acc: 0.1400 ±  0.0201; missing: 0.1433 ±  0.0203; f1:0.1513; macro_f1: 0.1018; mcc: 0.1437
+,
+,
+FinQA,acc: 0.0044 ±  0.0019
+,
+,
+TATQA,acc: 0.0618 ±  0.0059
+,
+,
+Regulations,Not Yet
+,
+,
+ConvFinQA,acc: 0 ±  0
+,
+,
+EDTSUM,rouge1: 0.2224; rouge2: 0.1009; rougeL: 0.1790; bert_score_f1: 0.6430
+,
+,
+ECTSUM,rouge1: 0; rouge2: 0; rougeL: 0; bert_score_f1: 0
+,
+,
+BigData22,acc: 0.4728 ±  0.013; missing: 0.0000 ±  0.000; f1: 0.3633; macro_f1:0.3873; mcc: 0.0668
+,
+,
+ACL18,acc: 0.4933 ±  0.0082; missing: 0.0000 ±  0.0000; f1: 0.4343; macro_f1: 0.4388; mcc: 0.0043
+,
+,
+CIKM18,acc: 0.4296 ±  0.0146; missing: 0.0000 ±  0.0000; f1: 0.3664; macro_f1:  0.3912; mcc: -0.0452
+,
+,
+German,acc: 0.6500 ±  0.0338; missing: 0.0000 ±  0.0000; f1: 0.5514; macro_f1: 0.4426; mcc: 0.0291
+,
+,
+Australian,acc: 0.4317 ±  0.0422; missing: 0.0000 ±  0.0000; f1: 0.2603; macro_f1: 0.3015; mcc: 0.0000
+,
+,
+LendingClub,acc: 0.8082 ±  0.0076; missing: 0.0000 ±  0.0000; f1: 0.7225; macro_f1: 0.4470; mcc: 0.0000
+,
+,
+ccf,acc: 0.5226 ±  0.0105; missing: 0.0000 ±  0.0000; f1: 0.6856; macro_f1: 0.3432; mcc: -0.0346
+,
+,
+ccfraud,acc: 0.3480 ±  0.0104; missing: 0.0000 ±  0.0000; f1: 0.4619; macro_f1: 0.2998; mcc: 0.0281
+,
+,
+polish,acc: 0.9488 ±  0.0053; missing: 0.0000 ±  0.0000; f1: 0.9238; macro_f1: 0.4869; mcc: 0.0000
+,
+,
+taiwan,acc: 0.9678 ±  0.0048; missing: 0.0000 ±  0.0000; f1: 0.9519; macro_f1: 0.4918; mcc: 0.0000
+,
+,
+portoseguro,acc: 0.4912 ±  0.0102; missing: 0.0000 ±  0.0000; f1: 0.6343; macro_f1: 0.3513; mcc: -0.0215
+,
+,
+travelinsurance,acc: 0.0154 ±  0.0024; missing: 0.0000 ±  0.0000; f1: 0.0012; macro_f1: 0.0152; mcc: 0.0025
+,
+,
+ES_FinanceES,acc: 0.0969 ±  0.0037; missing: 0.3985 ±  0.0061; f1: 0.1064; macro_f1: 0.1238; mcc: -0.1039
+,
+,
+ES_Multifin,acc: 0.2913 ±  0.0300; missing: 0.3043 ±  0.0304; f1: 0.3057; macro_f1: 0.2993; mcc: 0.2136
+,
+,
+ES_EFP,acc: 0.3514 ±  0.0796; missing: 0.0000 ±  0.000; f1: 0.3107; macro_f1: 0.2967; mcc: -0.0168
+,
+,
+ES_EFPA,acc: 0.2982 ±  0.0304; missing: 0.0000 ±  0.0000; f1: 0.2958; macro_f1: 0.2955; mcc: 0.0791
+,
+,
+ES_FNS,rouge1: 0.0000; rouge2: 0.0000; rougeL: 0.0000; bert_score_f1: 0.0103
+,
+,
+ES_TSA,acc: 0.1214 ±  0.0053; missing: 0.4442 ±  0.0080; f1: 0.1772; macro_f1: 0.1301; mcc: 0.0526
