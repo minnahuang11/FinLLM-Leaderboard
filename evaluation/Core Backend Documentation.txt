@@ -1,0 +1,366 @@
+CACHE.PY DOCUMENTATION
+====================
+
+Overview
+--------
+This module provides a centralized caching system for managing different types of data
+in the Open Greek Financial LLM Leaderboard. It handles caching for datasets, models,
+votes, and evaluation data using a structured directory system.
+
+Dependencies
+-----------
+- pathlib.Path: For cross-platform path handling
+- datetime.timedelta: For cache expiration timing
+- logging: For operation logging
+- shutil: For directory operations
+- os: For environment variable management
+
+Configuration
+------------
+Required environment variables:
+- HF_HOME: Root directory for HuggingFace cache
+- TRANSFORMERS_CACHE: Directory for model cache
+- HF_DATASETS_CACHE: Directory for dataset cache
+
+Class: CacheConfig
+-----------------
+Manages the caching system for the Open Greek Financial LLM Leaderboard.
+Implements a singleton pattern to ensure consistent cache management across the application.
+
+Cache Types:
+- Datasets: For HuggingFace dataset storage
+- Models: For model files and configurations
+- Votes: For user voting data
+- Evaluation: For model evaluation results
+
+Attributes:
+- cache_root (Path): Root directory for all caches
+- datasets_cache (Path): Directory for dataset cache
+- models_cache (Path): Directory for model cache
+- votes_cache (Path): Directory for votes cache
+- eval_cache (Path): Directory for evaluation cache
+- votes_file (Path): Path to votes data file
+- eval_requests_file (Path): Path to evaluation requests file
+- cache_ttl (timedelta): Time-to-live for cached data
+
+Methods
+-------
+
+1. __init__()
+   Purpose: Initialize the cache configuration system
+   Actions:
+   - Defines cache paths from configuration
+   - Sets up specific file paths for votes and evaluations
+   - Configures cache expiration time
+   - Initializes cache directories
+   - Sets up environment variables
+   Raises: Exception if directory creation fails
+
+2. _initialize_cache_dirs()
+   Purpose: Create all necessary cache directories
+   Directory Structure:
+   cache_root/
+   ├── datasets/    # For HuggingFace datasets
+   ├── models/      # For model files
+   ├── votes/       # For voting data
+   └── eval/        # For evaluation data
+   Raises: Exception if directory creation fails
+
+3. _setup_environment()
+   Purpose: Configure HuggingFace environment variables for caching
+   Sets up:
+   - HF_HOME: Root directory for HuggingFace cache
+   - TRANSFORMERS_CACHE: Directory for model cache
+   - HF_DATASETS_CACHE: Directory for dataset cache
+
+4. get_cache_path(cache_type: str) -> Path
+   Purpose: Get the path for a specific cache type
+   Args:
+   - cache_type (str): Type of cache to get path for
+     Valid values: "datasets", "models", "votes", "eval"
+   Returns: Path to the requested cache directory
+   Note: Returns cache_root if cache_type is not recognized
+
+5. flush_cache(cache_type: str = None)
+   Purpose: Clear specified cache or all caches
+   Args:
+   - cache_type (str, optional): Type of cache to clear
+     If None, clears all caches
+     Valid values: "datasets", "models", "votes", "eval"
+   Actions:
+   - Removes all files in the specified cache directory
+   - Recreates the directory structure
+   - Logs the operation details
+   Raises: Exception if cache clearing fails
+
+Areas for Improvement
+---------------------
+
+1. Cache Validation
+   - Add method to validate cache integrity
+   - Implement checksum verification
+   - Add cache corruption detection
+
+2. Cache Size Management
+   - Implement size limits for caches
+   - Add automatic cleanup of old data
+   - Implement disk space monitoring
+
+3. Cache Statistics
+   - Add usage tracking
+   - Implement hit/miss rate monitoring
+   - Add performance metrics collection
+
+4. Cache Versioning
+   - Implement version control for cached data
+   - Add rollback capabilities
+   - Track cache versions
+
+5. Cache Compression
+   - Add compression for old data
+   - Implement automatic compression
+   - Add decompression on access
+
+6. Error Recovery
+   - Add automatic recovery from corruption
+   - Implement backup mechanisms
+   - Add data validation
+
+7. Cache Preloading
+   - Implement predictive caching
+   - Add priority-based preloading
+   - Optimize access patterns
+
+8. Cache Monitoring
+   - Add real-time monitoring
+   - Implement alerting system
+   - Track performance metrics
+
+Additional Recommendations to Implement
+---------------------------------------
+
+1. Type Hints
+   - Add complete type hints for all methods
+   - Use custom types for cache types
+   - Implement strict type checking
+
+2. Testing
+   - Add unit tests for each method
+   - Add integration tests
+   - Implement performance tests
+
+3. Logging
+   - Implement structured logging
+   - Add performance metrics logging
+   - Add audit logging
+
+4. Security
+   - Add cache access controls
+   - Implement cache encryption
+   - Add audit trails
+
+5. Performance
+   - Add cache warming mechanisms
+   - Implement cache eviction policies
+   - Optimize storage patterns
+
+6. Maintenance
+   - Add cache cleanup scheduling
+   - Implement backup mechanisms
+   - Add health checks
+
+Usage Examples
+-------------
+
+1. Get cache path:
+   datasets_path = cache_config.get_cache_path("datasets")
+
+2. Clear specific cache:
+   cache_config.flush_cache("models")
+
+3. Clear all caches:
+   cache_config.flush_cache()
+
+4. Access cache files:
+   votes_data = cache_config.votes_file
+   eval_requests = cache_config.eval_requests_file
+
+FASTAPI_CACHE.PY DOCUMENTATION
+==============================
+
+Overview
+--------
+This module provides a caching system for FastAPI endpoints in the Open Greek Financial LLM Leaderboard.
+It implements an in-memory caching solution with configurable expiration times and key management.
+
+Dependencies
+-----------
+- fastapi_cache: Core caching functionality
+- fastapi_cache.backends.inmemory: In-memory cache backend
+- fastapi_cache.decorator: Caching decorators
+- datetime.timedelta: For time-based cache expiration
+- logging: For operation logging
+
+Configuration
+------------
+Required environment variables:
+- CACHE_TTL: Time-to-live for cached responses in seconds
+
+Functions
+---------
+
+1. setup_cache()
+   Purpose: Initialize the FastAPI caching system
+   Actions:
+   - Sets up in-memory backend
+   - Configures cache prefix
+   - Sets default expiration time
+   - Logs initialization status
+   Usage:
+   ```python
+   setup_cache()
+   ```
+
+2. invalidate_cache_key(key: str)
+   Purpose: Remove a specific item from the cache
+   Args:
+   - key (str): The cache key to invalidate
+   Actions:
+   - Attempts to delete the specified key
+   - Logs success or failure
+   - Handles backend compatibility
+   Usage:
+   ```python
+   invalidate_cache_key("my-cache-key")
+   ```
+
+3. build_cache_key(namespace: str, *args) -> str
+   Purpose: Create a consistent cache key
+   Args:
+   - namespace (str): Namespace for the cache key
+   - *args: Additional arguments to include in the key
+   Returns:
+   - str: Formatted cache key
+   Format: "fastapi-cache:{namespace}:{args}"
+   Usage:
+   ```python
+   key = build_cache_key("models", "status", "all")
+   ```
+
+4. cached(expire: int = CACHE_TTL, key_builder=None)
+   Purpose: Decorator for caching endpoint responses
+   Args:
+   - expire (int): Cache expiration time in seconds
+   - key_builder (callable, optional): Custom key builder function
+   Returns:
+   - Decorator function for caching
+   Usage:
+   ```python
+   @cached(expire=300)
+   async def get_models():
+       return await model_service.get_models()
+   ```
+
+Cache Key Structure
+-----------------
+Format: "fastapi-cache:{namespace}:{args}"
+Example: "fastapi-cache:models:status:all"
+
+Components:
+1. Prefix: "fastapi-cache"
+2. Namespace: Identifies the type of data
+3. Arguments: Additional identifiers
+
+Example Usage
+------------
+
+1. Basic Caching:
+   ```python
+   @cached(expire=300)
+   async def get_leaderboard():
+       return await leaderboard_service.get_data()
+   ```
+
+2. Custom Key Building:
+   ```python
+   def custom_key_builder(func, namespace: str, **kwargs):
+       return f"custom:{namespace}:{kwargs.get('user_id')}"
+
+   @cached(key_builder=custom_key_builder)
+   async def get_user_data(user_id: str):
+       return await user_service.get_data(user_id)
+   ```
+
+3. Cache Invalidation:
+   ```python
+   async def update_model(model_id: str):
+       await model_service.update(model_id)
+       invalidate_cache_key(build_cache_key("models", model_id))
+   ```
+
+Best Practices
+-------------
+
+1. Cache Duration
+   - Use appropriate expiration times
+   - Consider data update frequency
+   - Balance freshness with performance
+
+2. Key Management
+   - Use consistent namespaces
+   - Include relevant parameters
+   - Avoid overly long keys
+
+3. Cache Invalidation
+   - Invalidate on data updates
+   - Use specific keys when possible
+   - Monitor cache size
+
+4. Performance
+   - Cache expensive operations
+   - Use appropriate backend
+   - Monitor hit/miss rates
+
+5. Error Handling
+   - Handle cache failures gracefully
+   - Log cache operations
+   - Implement fallback mechanisms
+
+Areas for Improvement
+--------------------
+
+1. Cache Backend Options
+   - Add Redis support
+   - Implement distributed caching
+   - Add cache persistence
+
+2. Cache Statistics
+   - Add hit/miss tracking
+   - Implement performance metrics
+   - Add cache size monitoring
+
+3. Cache Management
+   - Add cache warming
+   - Implement cache cleanup
+   - Add cache compression
+
+4. Error Handling
+   - Add retry mechanisms
+   - Implement circuit breakers
+   - Add cache recovery
+
+5. Monitoring
+   - Add cache health checks
+   - Implement alerting
+   - Add performance tracking
+
+6. Security
+   - Add cache encryption
+   - Implement access controls
+   - Add audit logging
+
+7. Testing
+   - Add unit tests
+   - Implement integration tests
+   - Add performance tests
+
