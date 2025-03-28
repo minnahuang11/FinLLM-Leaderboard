@@ -1,0 +1,32 @@
+﻿The config folder serves as the central nervous system of the backend application. Here are
+the components in the config Folder of Open-Greek-Financial Leaderboard Backend:
+1. __init__.py
+   * Acts as an initialization file for the configuration package.
+   * Imports all settings from base.py and makes them accessible at the package level.
+   * Helps prevent circular dependencies.
+2. base.py
+   * Contains the core application settings, such as:
+      * Server configuration
+      * CORS policies
+      * Caching parameters
+      * Rate limiting rules
+   * Manages infrastructure components like API endpoints, cache locations, and Hugging Face (HF) integration settings using environment variables and fixed values.
+   * Defines settings for both development and production, ensuring consistency and organized paths for data storage and evaluation processes.
+3. hf_config.py
+   * Handles Hugging Face-specific settings, including:
+      * Connections and access parameters for HF repositories and services.
+      * Authentication via HF API tokens.
+      * Repository paths for data types such as requests, contents, votes, and highlights.
+      * Local cache directories for storing model data and evaluation results.
+   * Includes error handling for missing tokens and maintains structured paths for data storage within the TheFinAI organization.
+4. logging_config.py
+   * Implements a custom logging system designed to work seamlessly with tqdm progress bars, avoiding interference.
+   * Provides tools for creating specialized logging handlers that preserve progress bar integrity during long processes.
+   * The setup_service_logger function creates isolated loggers for different services, ensuring each has a dedicated configuration with proper formatting and handling.
+What we could improve on/change for the project:
+* Add configuration validation on startup
+* Implement configuration versioning
+* Add documentation for each configuration option
+* Consider adding backup locations for cache
+* Implement configuration hot-reloading for development
+* Add telemetry options for production monitoring
