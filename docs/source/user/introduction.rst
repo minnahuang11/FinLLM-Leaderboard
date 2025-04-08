@@ -33,6 +33,23 @@ Our goal is to fill this critical gap by providing:
 - Clear insights into model performance across different financial tasks
 - A platform for continuous improvement and innovation in financial AI
 
+Open FinLLM Leaderboard
+-----------
+This section reflects our effort where we collect diverse financial tasks and models from research teams and industries. Models are then evaluated on our leaderboard. Currently there are several opensource evaluation framework for LLMs, but each of them would give a different result even when evaluating the same model using a same dataset. Our goal is to build a reliable benchmarking framework for reference that bridges academic research with practical financial applications.
+
+Demos and AI Safety
+-------------------
+At the center of the illustration, a side-by-side view is presented. Unlike conventional leaderboards that only display scores, this segment offers an online comparison demo. We show multiple actual model outputs with their corresponding performance scores to help users better understand the real-world implications of these metrics, thereby enhancing transparency and promoting AI safety.
+
+ZKP (Zero-Knowledge Proof)
+--------------------------
+The lower portion of the Demos and AI Safety introduces the concept of Zero-Knowledge Proof (ZKP). This planned feature aims to protect dataset privacy and prevent fraudulent behaviors such as leaderboard manipulation. With ZKP, we envision a system that can verify model performance without exposing sensitive underlying data, ensuring both integrity and security of the evaluation process.
+
+Financial AI Readiness
+----------------------
+On the right, this segment embodies the primary objective of the Leaderboard: to build a gateway between academia and industry. By translating complex research achievements into accessible and actionable insights, we foster the growth of the Agentic AI Ecosystem. Much like established industry standards such as MCP and MOF, this section sets the benchmark for financial AI readiness, ensuring that innovations in financial language models are both practical and impactful.
+
+
 Key Features
 ============
 Task Categories
