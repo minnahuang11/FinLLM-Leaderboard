@@ -42,7 +42,7 @@ Financial Evaluation Dependencies
 
 Download BART Checkpoint
 ------------------------
-.. code-block:: python
+.. code-block:: bash
 
     from google.colab import drive
     import os
@@ -65,7 +65,7 @@ Download BART Checkpoint
 
 Set PYTHONPATH and Login
 ------------------------
-.. code-block:: python
+.. code-block:: bash
 
     %cd /content/PIXIU/src
     %cd /content
@@ -81,7 +81,7 @@ Run PIXIU Evaluation Tasks
 ===========================
 Define and run the tasks as required. Modify the task list and model parameters as needed.
 
-.. code-block:: python
+.. code-block:: bash
 
     tasks_list = [
         "flare_ner",

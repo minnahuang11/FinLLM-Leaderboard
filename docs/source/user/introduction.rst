@@ -18,9 +18,9 @@ Our platform offers:
 - **Zero-Shot Testing**: Evaluation of models' ability to generalize to unseen financial tasks
 - **Transparent Metrics**: Clear performance metrics for informed model selection
 
-.. image:: ./images/overview.png
+.. figure:: ./images/overview.png
+   :width: 100%
    :align: center
-   :class: custom-img
 
 Overview
 ===========
@@ -34,7 +34,7 @@ Our goal is to fill this critical gap by providing:
 - A platform for continuous improvement and innovation in financial AI
 
 Open FinLLM Leaderboard
------------
+--------------------------
 This section reflects our effort where we collect diverse financial tasks and models from research teams and industries. Models are then evaluated on our leaderboard. Currently there are several opensource evaluation framework for LLMs, but each of them would give a different result even when evaluating the same model using a same dataset. Our goal is to build a reliable benchmarking framework for reference that bridges academic research with practical financial applications.
 
 Demos and AI Safety
