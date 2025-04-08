@@ -22,7 +22,7 @@ Our platform offers:
    :align: center
    :class: custom-img
 
-Motivation
+Overview
 ===========
 The growing complexity of financial language models necessitates evaluations that go beyond general NLP benchmarks. While traditional leaderboards focus on broader NLP tasks, they often fall short in addressing the specific needs of the finance industry.
 
