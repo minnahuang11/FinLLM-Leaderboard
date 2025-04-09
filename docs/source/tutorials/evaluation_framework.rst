@@ -40,9 +40,11 @@ Run the following commands in a Colab cell to upgrade PyTorch, clone your reposi
    %cd PIXIU
    !pip install -r requirements.txt
 
+
 Installing Additional Dependencies
 +++++++++++++++++++++++++++++++++++++
 Navigate to the evaluation folder and install any extra packages required by your tasks:
+
 .. code-block:: bash
 
    %cd /content/PIXIU/src/financial-evaluation
@@ -58,6 +60,7 @@ Many evaluation tasks require specific model checkpoints. For instance, the BART
    from google.colab import drive
    import os
    import gdown
+
 
    # Mount Google Drive to access the checkpoint
    drive.mount('/content/drive')

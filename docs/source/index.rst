@@ -20,7 +20,9 @@ OpenFinLLM Leaderboard Documentation documentation
    :caption: OpenFinLLM Leaderboard Documentation
 
    user/introduction
+   datasets/index
    basics_setup/index
    tutorials/index
    use_cases/index
+   roadmap/index
 
