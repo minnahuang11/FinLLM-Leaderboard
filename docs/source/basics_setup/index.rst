@@ -7,4 +7,5 @@ Basic and Setup
    :caption: Basic&Setup
 
    install_cuda
+   deepseek_api
    get_api_keys

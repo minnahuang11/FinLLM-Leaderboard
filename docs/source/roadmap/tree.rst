@@ -1,4 +1,4 @@
-Tre Structure
+Tree Structure
 ======================
 
 Overview
