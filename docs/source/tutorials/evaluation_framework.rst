@@ -1,5 +1,5 @@
 ==============================================
-Benchmark DeepSeek with an Evaluation Framework
+Evaluate Deepseek using Framework
 ==============================================
 
 .. contents:: Table of Contents
