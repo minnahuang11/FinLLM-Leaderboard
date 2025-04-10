@@ -1,5 +1,5 @@
 ==============================================
-Evaluation Framework Tutorial on Google Colab
+Benchmark DeepSeek with an Evaluation Framework
 ==============================================
 
 .. contents:: Table of Contents
@@ -18,6 +18,7 @@ This framework:
 
 Prerequisites
 -------------
+
 Before you begin, ensure you have:
 - A **Google Colab** account with GPU access (preferably an A100 or similar).
 - A valid **Hugging Face Token** for accessing models that require authentication.
@@ -100,6 +101,52 @@ Running Evaluation Tasks
 ------------------------
 Define your evaluation tasks and set the model parameters. Update the transformer URLs with your model's pretrained and tokenizer URLs.
 
+.. code-block:: markdown
+
+   **Tasks Names Defined Below**
+
+   - **NER:** flare_ner
+   - **FINER-ORD:** flare_finer_ord
+   - **FinRED:** flare_finred
+   - **SC:** flare_causal20_sc
+   - **CD:** flare_cd
+   - **FNXL:** flare_fnxl
+   - **FSRL:** flare_fsrl
+   - **FPB:** flare_fpb
+   - **FiQA-SA:** flare_fiqasa
+   - **TSA:** flare_tsa
+   - **Headlines:** flare_headlines
+   - **FOMC:** flare_fomc
+   - **FinArg-ACC:** flare_finarg_ecc_auc
+   - **FinArg-ARC:** flare_finarg_ecc_arc
+   - **MultiFin:** flare_multifin_en
+   - **MA:** flare_ma
+   - **MLESG:** flare_mlesg
+   - **FinQA:** flare_finqa
+   - **TATQA:** flare_tatqa
+   - **Regulations:** (No specific task name provided for this)
+   - **ConvFinQA:** flare_convfinqa
+   - **EDTSUM:** flare_edtsum
+   - **ECTSUM:** flare_ectsum
+   - **BigData22:** flare_sm_bigdata
+   - **ACL18:** flare_sm_acl
+   - **CIKM18:** flare_sm_cikm
+   - **German:** flare_german
+   - **Australian:** flare_australian
+   - **LendingClub:** flare_cra_lendingclub
+   - **ccf:** flare_cra_ccf
+   - **ccfraud:** flare_cra_ccfraud
+   - **polish:** flare_cra_polish
+   - **taiwan:** flare_cra_taiwan
+   - **portoseguro:** flare_cra_portoseguro
+   - **travelinsurance:** flare_cra_travelinsurace
+   - **ES_FinanceES:** flare_es_financees
+   - **ES_Multifin:** flare_es_multifin
+   - **ES_EFP:** flare_es_efp
+   - **ES_EFPA:** flare_es_efpa
+   - **ES_FNS:** flare_es_fns
+   - **ES_TSA:** flare_es_tsa
+
 .. code-block:: python
 
    tasks_list = [
@@ -172,7 +219,7 @@ After running an evaluation task, check the output file in your results folder. 
 
 Running the Tutorial
 --------------------
-To run this evaluation framework:
+To run this evaluation framework: 
 
 - **Replace placeholders:** Update `<YOUR_GITHUB_REPO_LINK>`, `<INSERT_PRETRAINED_TRANSFORMER_URL_HERE>`, `<INSERT_TOKENIZER_TRANSFORMER_URL_HERE>`, `<YOUR_MODEL_NAME>`, and `"YOUR_HUGGINGFACE_TOKEN"` with your actual values.
 - **GPU configuration:** Ensure that your Google Colab runtime is set to use a GPU (e.g., A100).
