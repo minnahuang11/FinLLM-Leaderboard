@@ -1,4 +1,4 @@
-,codellama_7b
+,
 NER,
 FINER-ORD,
 ,
@@ -48,10 +48,10 @@ BigData22,
 ACL18,
 CIKM18,
 German,
-Australian,
-LendingClub,
-ccf,
-ccfraud,
+Australian,acc: 0.4317 +- 0.0422; missing: 0.0000 +- 0.0000; f1: 0.2603; macro_f1: 0.3015; mcc: 0.0000
+LendingClub,acc: 0.8082 +- 0.0076; missing: 0.0000 +- 0.0000; f1: 0.7225; macro_f1: 0.4470; mcc: 0.0000
+ccf,acc: 0.8591 +- 0.0073; missing: 0.0000 +- 0.0000; f1: 0.9230; macro_f1: 0.4621; mcc: -0.0146
+ccfraud,acc: 0.0667 +- 0.0054; missing: 0.0000 +- 0.0000; f1: 0.0441; macro_f1: 0.0441; mcc: -0.2432
 polish,
 taiwan,
 portoseguro,
