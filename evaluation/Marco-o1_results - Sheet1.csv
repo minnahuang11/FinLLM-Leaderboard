@@ -1,0 +1,64 @@
+,AIDC-AI/Marco-o1
+NER,entity_f1: 0.0542
+FINER-ORD,entity_f1: 0.0601; f1: 0.3354
+,
+,
+FinRED,precision: 0.0023; recall: 0.0260; f1: 0.0043
+,
+,
+SC,acc: 0.8617 ± 0.0037; missing: 0.0000 ± 0.0000; f1: 0.8758; macro_f1: 0.5578; mcc: 0.1235
+,
+,
+CD,entity_f1: 0.0000; f1: 0.0058
+,
+,
+FNXL,entity_f1: 0.0000; f1: 0.1413
+,
+,
+FSRL,entity_f1: 0.0108; f1: 0.1102
+,
+,
+FPB,acc: 0.4577 ± 0.0160; missing: 0.0041 ± 0.0021; f1: 0.4610; macro_f1: 0.4584; mcc: 0.1646
+,
+,
+FiQA-SA,acc: 0.4170 ± 0.0322; missing: 0.1362 ± 0.0224; f1: 0.4518; macro_f1: 0.3548; mcc: 0.2022
+,
+,
+TSA,rmse: 0.6112; missing: 0.0000 ± 0
+,
+,
+Headlines,
+,
+,
+FOMC,
+,
+,
+FinArg-AUC,
+FinArg-ARC,
+MultiFin,
+MA,
+MLESG,
+FinQA,
+TATQA,
+Regulations,Not Done Yet
+ConvFinQA,
+EDTSUM,
+ECTSUM,
+BigData22,
+ACL18,
+CIKM18,
+German,
+Australian,
+LendingClub,
+ccf,
+ccfraud,
+polish,
+taiwan,
+portoseguro,
+travelinsurance,
+ES_FinanceES,
+ES_Multifin,
+ES_EFP,
+ES_EFPA,
+ES_FNS,
+ES_TSA,
