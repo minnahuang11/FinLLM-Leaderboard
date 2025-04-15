@@ -2,6 +2,7 @@
 
 Benchmark Llama-3.1 on Financial Tasks (zeroshot)
 =============================================================
+
 .. contents:: Table of Contents
    :local:
 
@@ -64,6 +65,8 @@ Tutorial
       import evaluate
       from tqdm.auto import tqdm
 
+.. note:: 
+    Imports the essential Python libraries used throughout the benchmarking process, including model loading, dataset handling, evaluation metrics, and multi-threaded streaming for real-time inference.
 2. Configuration Setup
 
    .. code-block:: python
@@ -73,6 +76,8 @@ Tutorial
       DATASET_NAME = "ChanceFocus/flare-fiqasa"
       ACCESS_TOKEN = "your_hf_token_here"  # Replace with your token
 
+.. note::
+    Define the model, dataset, and access credentials needed for loading and evaluating the LLaMA-3.2-1B model. Be sure to replace the access token with your own from Hugging Face to authenticate model access.
 3. Model Initialization
 
    .. code-block:: python
@@ -89,6 +94,8 @@ Tutorial
           tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
           return model, tokenizer
 
+.. note::
+    This function loads the pre-trained LLaMA model and its corresponding tokenizer from Hugging Face using the specified model name and access token. The model is automatically mapped to the available device for efficient inference.
 4. Zero-Shot Prompt Template
 
    .. code-block:: python
@@ -99,6 +106,9 @@ Tutorial
       Text: {example['text']}
       Options: {', '.join(example['choices'])}
       Answer:"""
+
+.. note::
+    This function creates a simple prompt to ask the model to analyze the sentiment of financial text. It includes the text, possible answer choices, and a space for the model to give its prediction.
 
 5. Generation Function
 
@@ -126,6 +136,8 @@ Tutorial
           thread.join()
           return generated_text
 
+.. note::
+    This function runs the model to generate a response from the prompt. It uses a progress bar to track token generation and runs the process in a separate thread for smoother output.
 6. Answer Extraction
 
    .. code-block:: python
@@ -150,6 +162,8 @@ Tutorial
                   return choice
           return None
 
+.. note::
+    These functions pull out the model’s final answer from the generated text and match it to one of the valid choices. This helps evaluate whether the model's response aligns with the expected answer format.
 7. Evaluation Function
 
    .. code-block:: python
@@ -182,6 +196,8 @@ Tutorial
           progress_bar.close()
           return accuracy.compute(predictions=predictions, references=references)
 
+.. note::
+    This function tests the model on a set of examples, compares its predictions to the correct answers, and tracks accuracy using a progress bar. It helps measure how well the model performs on the dataset.
 8. Main Execution
 
    .. code-block:: python
@@ -200,6 +216,9 @@ Tutorial
           )
 
           print(f"\nFinal Accuracy: {results['accuracy']:.2%}")
+
+.. note::
+    This is the main script that runs everything—loading the model and dataset, evaluating the model on test data, and printing the final accuracy. It ties all the previous steps together for a complete run.
 
 Running the Tutorial
 --------------------
