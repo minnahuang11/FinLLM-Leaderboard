@@ -2,7 +2,11 @@
 
 Benchmark Llama-3.1 on Financial Tasks (zeroshot)
 =============================================================
+.. contents:: Table of Contents
+   :local:
 
+Overview
+--------
 This guide shows how to benchmark Llama-3.1-1B model in a **Zero-Shot** setting:
 
 1. **Install** the necessary libraries
