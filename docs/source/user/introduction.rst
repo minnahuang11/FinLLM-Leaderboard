@@ -5,7 +5,7 @@ Introduction
 .. contents:: Table of Contents
    :local:
 
-Description
+Overview
 ============
 Welcome to the `Open FinLLM Leaderboard <https://huggingface.co/spaces/finosfoundation/Open-Financial-LLM-Leaderboard>`_!
 
@@ -22,8 +22,6 @@ Our platform offers:
    :width: 100%
    :align: center
 
-Overview
-===========
 The growing complexity of financial language models necessitates evaluations that go beyond general NLP benchmarks. While traditional leaderboards focus on broader NLP tasks, they often fall short in addressing the specific needs of the finance industry.
 
 Our goal is to fill this critical gap by providing:
@@ -77,3 +75,18 @@ We employ diverse metrics to provide a comprehensive assessment:
 - ROUGE Score: For text generation evaluation
 - Matthews Correlation Coefficient: For binary classification tasks
 - Sharpe Ratio: For risk-adjusted return measurement
+
+ZKP Integration
+------------------
+Our Zero-Knowledge Proof (ZKP) implementation ensures evaluation integrity while protecting sensitive data:
+
+- Privacy-Preserving Verification: Models can prove their performance without exposing training data
+- Anti-Gaming Protection: Prevents leaderboard manipulation through cryptographic verification
+- Data Confidentiality: Financial institutions can contribute proprietary datasets without disclosure
+- Transparent Auditing: All evaluations are cryptographically verifiable while maintaining privacy
+
+Use Cases & Datasets
+---------------------
+We ground our evaluations in real-world financial applications with:
+
+- **Industry Scenarios**: Actual use cases from Bussiness, Finance, Accounting, Auditing, Risk
